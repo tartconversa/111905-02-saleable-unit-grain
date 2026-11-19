@@ -1,0 +1,70 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "units": {
+      "description": "单元与用途",
+      "fields": {
+        "unit_id": "string",
+        "project": "string",
+        "building": "string",
+        "use": "string",
+        "valid_from": "string",
+        "valid_to": "any"
+      }
+    },
+    "changes": {
+      "description": "空间变更组声明",
+      "fields": {
+        "change_id": "string",
+        "effective": "string",
+        "expected_edges": "integer"
+      }
+    },
+    "edges": {
+      "description": "前后空间份额",
+      "fields": {
+        "change_id": "string",
+        "from_unit": "string",
+        "to_unit": "string",
+        "fraction": "string",
+        "source_slice": "array"
+      }
+    },
+    "rights": {
+      "description": "许可与限制记录",
+      "fields": {
+        "record_id": "string",
+        "kind": "string",
+        "scope": "string",
+        "share": "string",
+        "use": "string",
+        "effective": "string",
+        "reference": "any",
+        "source_slice": "array"
+      }
+    },
+    "occupations": {
+      "description": "历史签约占用",
+      "fields": {
+        "contract_id": "string",
+        "unit_id": "string",
+        "share": "string",
+        "contract_area": "string",
+        "measurement_id": "string",
+        "effective": "string",
+        "source_slice": "array"
+      }
+    },
+    "measurements": {
+      "description": "预测与实测",
+      "fields": {
+        "measurement_id": "string",
+        "unit_id": "string",
+        "basis": "string",
+        "area_sqm": "string",
+        "effective": "string",
+        "received": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{"effective": "2026-01-01", "kind": "permit", "record_id": "PER1", "reference": null, "scope": "U1", "share": "1/1", "source_slice": ["0/1", "1/1"], "use": "residential"}
+{"effective": "2026-10-20", "kind": "restriction", "record_id": "RES1", "reference": null, "scope": "U1", "share": "1/4", "source_slice": ["3/4", "1/1"], "use": "residential"}
+{"effective": "2026-11-01", "kind": "permit", "record_id": "PER2", "reference": null, "scope": "U2", "share": "1/1", "source_slice": ["0/1", "1/1"], "use": "residential"}
+{"effective": "2026-01-01", "kind": "permit", "record_id": "PER3", "reference": null, "scope": "C1", "share": "1/1", "source_slice": ["0/1", "1/1"], "use": "commercial"}

@@ -1,0 +1,4 @@
+{"building": "B1", "project": "P1", "unit_id": "U1", "use": "residential", "valid_from": "2026-01-01", "valid_to": "2026-11-01"}
+{"building": "B1", "project": "P1", "unit_id": "U2", "use": "residential", "valid_from": "2026-11-01", "valid_to": null}
+{"building": "B1", "project": "P1", "unit_id": "U3", "use": "residential", "valid_from": "2026-11-01", "valid_to": null}
+{"building": "B2", "project": "P1", "unit_id": "C1", "use": "commercial", "valid_from": "2026-01-01", "valid_to": null}

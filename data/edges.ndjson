@@ -1,0 +1,2 @@
+{"change_id": "split-1", "fraction": "3/5", "from_unit": "U1", "source_slice": ["0/1", "3/5"], "to_unit": "U2"}
+{"change_id": "split-1", "fraction": "2/5", "from_unit": "U1", "source_slice": ["3/5", "1/1"], "to_unit": "U3"}

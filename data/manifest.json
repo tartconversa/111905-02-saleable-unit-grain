@@ -1,0 +1,41 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "units.ndjson",
+      "dataset": "units",
+      "rows": 4,
+      "sha256": "dec1eef36eef200bba7ca6308f14986fe4ce116de7e06936a9980286bd8b5e3e"
+    },
+    {
+      "path": "changes.ndjson",
+      "dataset": "changes",
+      "rows": 1,
+      "sha256": "a4704a8c617bb808bc966ba4d582554c83e7d47130f52ff6ef12cf38dc5190af"
+    },
+    {
+      "path": "edges.ndjson",
+      "dataset": "edges",
+      "rows": 2,
+      "sha256": "eae1c4ba28214956d01bc0dc16cb912bac9c72638fb25f88b9a12c4968890f3d"
+    },
+    {
+      "path": "rights.ndjson",
+      "dataset": "rights",
+      "rows": 4,
+      "sha256": "60eb49902d846c60fa82c68e2c1e5bc943e185286a3562674650a1f43d6edd55"
+    },
+    {
+      "path": "occupations.ndjson",
+      "dataset": "occupations",
+      "rows": 1,
+      "sha256": "fc7682ada4d33f3ad2a03db518be2b306ffac640aa425c0aee7c6676c1f0a7ab"
+    },
+    {
+      "path": "measurements.ndjson",
+      "dataset": "measurements",
+      "rows": 3,
+      "sha256": "091bebbdd59a06e41bc04a99e948aa1965ac560271222392a93ee4446d9953ee"
+    }
+  ]
+}
