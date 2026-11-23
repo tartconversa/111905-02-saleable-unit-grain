@@ -1,6 +1,12 @@
 [project]
 name = "saleable-unit-grain"
-version = "0.0.1"
-description = "本地合成资料与仓湖开发环境"
+version = "1.0.0"
+description = "预售房屋拆并与可售面积事实仓：沿革、许可、限制与签约入仓及版本差异"
 requires-python = ">=3.11,<3.12"
 dependencies = ["duckdb==1.4.1"]
+
+[project.scripts]
+saleable-units = "saleable_units.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["saleable_units*"]
